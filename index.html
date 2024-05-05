@@ -85,33 +85,36 @@
             </div>
             <div class="management">
                 <div class="employee_management">
-                    <h2>Employee Management</h2>
+                    
                     <div class="employeeform">
                         <form class="emptable" action="#" method="post">
+                            
+                                <h2>Employee Management</h2>
+
                             <table >
                                 <tr>
                                     <td>Name:</td>
-                                    <td><input type="text" name="name" placeholder="Enter Your Name"></td>
+                                    <td><input type="text" name="name" placeholder="Enter Your Name" required></td>
                                 </tr>
 
                                 <tr>
                                     <td>Phone number:</td>
-                                    <td><input type="text" name="phonenum" placeholder="Enter Contact Number"></td>
+                                    <td><input type="phonenum" name="phonenumber" placeholder="Enter Contact Number" required></td>
                                 </tr>
 
                                 <tr>
                                  <td>Gender:</td>
-                                    <td><input type="radio" name="gender">male
-                                    <td><input type="radio" name="gender">Female    
+                                    <td><input type="radio" name="gender" required>male
+                                    <td><input type="radio" name="gender" required>Female    
                                 </tr>
 
                                 <tr>
                                     <td>Email:</td>
-                                    <td><input type="text" name="email" placeholder="Email"></td>
+                                    <td><input type="email" name="email" placeholder="Email" required></td>
                                 </tr>
 
                                 <tr>
-                                    <td>Project:</td>
+                                    <td>Project:</td required>
                                     <td>
                                     <select >
                                             <option>project 1</option>
@@ -122,8 +125,12 @@
                                     </td>
                                 <tr><td><button class="Submit">Submit</button></td></tr>
                                 
+                                
                          </table>
-                        </form>
+                         
+                         </form>
+                         
+                        
                     </div>
             </div>
 
