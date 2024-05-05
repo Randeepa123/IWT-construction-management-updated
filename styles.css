@@ -97,7 +97,7 @@ b{
     display: grid;
     width: 98%;
     margin: 0 auto ;
-    background: red;
+    background:white;
     gap: 1.8rem;
     grid-template-columns:18rem auto;
     text-align: center;
@@ -143,11 +143,7 @@ aside .sidebar a span{
 
 }
 
-aside .sidebar a:last-child{
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-}
+
 
 
 main .projects{
@@ -163,9 +159,29 @@ main .projects > div{
 padding: 1.8rem;
 border-radius: 2rem;
 background-color: antiquewhite;
-box-shadow: 0rem 0.5rem 1rem color rgba  (132,139,200,0.18) ;
+transition: all 400ms;
+
 }
 
 main .projects > div:hover{
     box-shadow: none;
+}
+
+main .projects .p1img{
+
+    border-radius: 2rem;
+
+}
+
+main .projects>div:hover{
+
+    background-color: rgb(248, 221, 185);
+
+}
+
+aside .sidebar a:hover{
+
+    background-color: bisque;
+   
+    padding-left: 30px;
 }
