@@ -104,13 +104,13 @@ b{
     
 
 }
-.container .sidebar .active{
 
-}
+
 aside{
 
     height: 100vh;
     background: white;
+   
 }
 
 aside .top{
@@ -247,6 +247,8 @@ form:hover{
     background-color: rgb(248, 221, 185);
 
 }
+
+
 
 
 
