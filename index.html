@@ -44,12 +44,29 @@
         </aside>
         <main>
             
-            <nav class="navbar">
-                <div class="profile">
-                    <img src="/images/propic.png" alt="Profile Picture" class="profile-pic">
-                    <span class="greeting">Hello, admin</span>  
-
-            </nav>
+            <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                  <img src="/images/propic.png" />
+                </div>
+                <div class="menu">
+                  <h3>Admin</h3>
+                  <ul>
+                    
+                    <li>
+                      <a href="#">Edit profile</a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#">Terms and conditions</a>
+                    </li>
+                    <li>
+                      <a href="#">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+               
 
             <h1>Dashboard</h1>
             <div class="projects">
@@ -187,6 +204,6 @@
 
    
 
- 
+ <script src="/script.js"></script>
 </body>
 </html>
