@@ -144,6 +144,10 @@ aside .sidebar a span{
 
 }
 
+.active{background-color: bisque;
+   
+    padding-left: 30px;}
+
 .action {
     position: fixed;
     top: 5px;
@@ -332,11 +336,11 @@ margin-right: 5px;
 
 button{
 
-    background-color: #4caf50;
+    background-color: royalblue;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 25%;
     cursor: pointer;
     font-size: 16px;
     display: flex;
@@ -395,6 +399,8 @@ main .project_management{
     background-color: #45a049;
   }
 
+/*======================================End of the admin styles======================================*/
 
 
+/*======================================Begining of the Project Styles======================================*/
 
